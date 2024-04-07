@@ -17,11 +17,19 @@ public class MainActivity extends AppCompatActivity {
         Button btnLayoutExercise = (Button)findViewById(R.id.btnLayoutExercise);
         Button btnButtonExercise = (Button)findViewById(R.id.btnButtonExercise);
         Button btnCalculatorExercise = (Button)findViewById(R.id.btnCalculatorExercise);
+        Button btnConnectThree = (Button)findViewById(R.id.btnConnect3);
 
         btnLayoutExercise.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, LayoutExercise.class));
+            }
+        });
+
+        btnConnectThree.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, TolentinoMidtermExamProject_Batch1.class));
             }
         });
 

@@ -12,24 +12,26 @@
         android:theme="@style/Theme.AndroidProjetCollection"
         tools:targetApi="31">
         <activity
-            android:name=".calculatorApp"
-            android:exported="false" >
+            android:name=".TolentinoMidtermExamProject_Batch1"
+            android:exported="true">
 
         </activity>
+        <activity
+            android:name=".calculatorApp"
+            android:exported="false"></activity>
         <activity
             android:name=".btnOne"
             android:exported="false" />
         <activity
             android:name=".button_exercise"
-            android:exported="false"></activity>
+            android:exported="false" />
         <activity
             android:name=".LayoutExercise"
-            android:exported="false">
-
-        </activity>
+            android:exported="false"></activity>
         <activity
             android:name=".MainActivity"
             android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
