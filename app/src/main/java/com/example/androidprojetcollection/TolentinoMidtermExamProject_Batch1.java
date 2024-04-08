@@ -9,6 +9,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -35,6 +36,7 @@ public class TolentinoMidtermExamProject_Batch1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tolentino_midterm_exam_project_batch1);
+        Toast.makeText(getBaseContext(), "Tristan James Y. Tolentino - Batch 1 – Connect 3" , Toast.LENGTH_LONG ).show();
         //here
         TextView btnR1C1  = (TextView)findViewById(R.id.btnR1C1);
         TextView btnR1C2 = (TextView)findViewById(R.id.btnR1C2);
